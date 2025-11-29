@@ -1,0 +1,62 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  background: #111;
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+}
+
+/* Center the menu */
+.menu-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Title */
+.menu-title {
+  color: #f5b400;
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+/* Button row (Mouse | Keyboard) */
+.control-select {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+/* Buttons */
+.menu-button {
+  padding: 12px 30px;
+  font-size: 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+
+.mouse-btn {
+  background: #2ecc71;
+}
+
+.keyboard-btn {
+  background: #34495e;
+}
+
+.singleplayer-btn {
+  background: #1e6cff;
+  margin-top: 20px;
+}
+
+.multiplayer-btn {
+  background: #e60000;
+  margin-top: 20px;
+}
